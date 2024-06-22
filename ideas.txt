@@ -1,0 +1,16 @@
+What are we going to build 
+an API rate limiter with token bucket algorithm
+
+what is the idea behind that?
+
+besides the business rules as a best practice for security and performance of your api 
+you should put a rate limiter middleware
+
+rate limiter in theory do a simple job
+
+track the requests from users in fixed period of time 
+ex maxium api calls in 1 min is 3 calls 
+30 tweets per day
+
+so the limiter prevent users from overuse the endpoint
+
